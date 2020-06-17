@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Ajax Dischi</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+        <link rel="stylesheet" href="../public/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    </head>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="../public/img/logo.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="elenco-dischi">
+            <div class="container container-dischi">
+            </div>
+
+        </section>
+    </main>
+    <body>
+        <script src="../public/js/main.js" charset="utf-8"></script>
+        <script id="template-dischi" type="text/x-handlebars-template">
+            <div class="disco">
+                <img src="{{poster}}" alt="">
+                <h3>{{title}}</h3>
+                <span class="author">{{author}}</span>
+                <span class="year">{{year}}</span>
+            </div>
+        </script>
+    </body>
+</html>

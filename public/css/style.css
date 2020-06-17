@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #2f3940;
+}
+
+header .logo {
+  height: 100%;
+  padding: 10px 0;
+}
+
+header .logo img {
+  height: 100%;
+}
+
+.container {
+  width: 1070px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.elenco-dischi {
+  background: #101F2A;
+}
+
+.elenco-dischi .container-dischi {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.elenco-dischi .disco {
+  background: #48555F;
+  width: 200px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  margin: 10px 20px;
+  text-align: center;
+}
+
+.elenco-dischi .disco img {
+  width: 100%;
+}
+
+.elenco-dischi .disco h3 {
+  text-transform: uppercase;
+  color: white;
+  margin: 10px 0;
+}
+
+.elenco-dischi .disco span {
+  color: grey;
+}
+
+.elenco-dischi .disco .year {
+  font-size: 20px;
+}
+
