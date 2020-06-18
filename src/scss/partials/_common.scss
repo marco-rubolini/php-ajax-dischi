@@ -1,78 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: $font-family;
 }
 
-header {
-    width: 100%;
-    height: 70px;
-    background-color: #2f3940;
-
-    .logo {
-        height: 100%;
-        padding: 10px 0;
-
-        img {
-            height: 100%;
-        }
-    }
-
-}
 
 .container {
     width: 1070px;
     margin: 0 auto;
     height: 100%;
-}
-
-.elenco-dischi {
-
-    background: #101F2A;
-
-
-    .container-dischi{
-        padding: 10px 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .disco {
-        background: #48555F;
-        width: 200px;
-        height: 350px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        padding: 20px;
-        margin: 10px 20px;
-        text-align: center;
-
-        img {
-            width: 100%;
-        }
-
-        h3 {
-            text-transform: uppercase;
-            color: white;
-            margin: 10px 0;
-        }
-
-        span {
-            color: grey;
-        }
-
-        .year {
-
-            font-size: 20px;
-        }
-
-    }
 }

@@ -1,0 +1,41 @@
+.elenco-dischi {
+
+    background: $colore_secondario;
+
+
+    .container-dischi{
+        padding: $padding_element;
+        @include flex(center, wrap, row, center);
+    }
+
+    .disco {
+        background: $colore_principale;
+        width: 200px;
+        height: 350px;
+        @include flex(flex-start, nowrap, column, center );
+        padding: $padding_card;
+        margin: 10px 20px;
+        text-align: center;
+        box-sizing: border-box;
+
+        img {
+            width: 100%;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            color: white;
+            margin: 10px 0;
+        }
+
+        span {
+            color: $colore_contrasto;
+        }
+
+        .year {
+
+            font-size: 20px;
+        }
+
+    }
+}

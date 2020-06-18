@@ -73,6 +73,17 @@ $dischi = [
     ]
 ];
 
+
+if (isset($_GET['author']) && $_GET['author'] != 'All') {
+    $dischi_filtrati = [];
+    foreach ($dischi as $key => $value) {
+        if ($value['author'] != $_GET['author']) {
+            unset($dischi[$key]);
+        }
+    }
+}
+
+
 header('Content-Type: application/json');
 echo json_encode($dischi);
 

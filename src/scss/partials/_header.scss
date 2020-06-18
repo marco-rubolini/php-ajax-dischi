@@ -1,0 +1,22 @@
+header {
+    width: 100%;
+    height: 70px;
+    background-color: $colore_principale;
+
+    .logo {
+        height: 100%;
+        padding: $padding_element;
+        box-sizing: border-box;
+        float: left;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    #select-author {
+        float: right;
+        line-height: 70px;
+    }
+
+}
